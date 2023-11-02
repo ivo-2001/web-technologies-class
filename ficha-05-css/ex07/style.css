@@ -1,0 +1,33 @@
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Lexend';
+  font-size: 18px;
+  font-weight: light;
+  line-height: 150%;
+}
+
+div.card {
+  padding: 50px;
+  border: 1px solid #262626;
+  border-radius: 14px;
+  max-width: fit-content;
+}
+
+h1 {
+  font-size: 20px;
+  max-width: 683px;
+}
+
+div.line {
+  background-color: #262626;
+  width: 682px;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #B3B3B3;
+  max-width: 683px;
+}
