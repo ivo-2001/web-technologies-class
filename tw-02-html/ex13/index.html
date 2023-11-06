@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <fieldset>
+        <legend>Age</legend>
+        <label for="age-0-18">&lt;18</label>
+        <input type="radio" name="age" id="age-0-18" value="0-18" />
+        <label for="age-19-35">19-35</label>
+        <input type="radio" name="age" id="age-19-35" value="19-35" />
+        <label for="age-36-48">36-48</label>
+        <input type="radio" name="age" id="age-36-48" />
+        <label for="age-gt-49">&lt;49</label>
+        <input type="radio" name="age" id="age-gt-49" value="gt-49" />
+      </fieldset>
+      <div>
+        <label for="prof">Profession:</label>
+        <input type="text" id="prof" />
+        <label for="prof">Country:</label>
+        <select name="country" id="country">
+          <option value="Portugal">Portugal</option>
+          <option value="Spain">Spain</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>
+        </select>
+      </div>
+      <fieldset>
+        <legend>Interests</legend>
+        <label for="photography">Photography</label>
+        <input
+          type="checkbox"
+          name="photography"
+          id="photography"
+          value="photography"
+        />
+        <label for="music">Music</label>
+        <input type="checkbox" name="music" id="music" value="music" />
+        <label for="cinema">Cinema</label>
+        <input type="checkbox" name="cinema" id="cinema" value="cinema" />
+        <label for="computers">Computers</label>
+        <input
+          type="checkbox"
+          name="computers"
+          id="computers"
+          value="computers"
+        />
+      </fieldset>
+      <div>
+        <label for="ref">How did you find us?</label><br />
+        <textarea name="ref" id="ref" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
